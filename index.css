@@ -1,0 +1,250 @@
+body {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Love light";
+    font-weight: bolder;
+
+}
+
+ /* section */
+
+.colored-section {
+    background-color: rgb(155, 170, 177)
+    ;
+    color:black;
+
+}
+
+.white-section {
+    background-color: #fff;
+    color: rgb(14, 175, 14);
+}
+
+/* title and navbar */
+
+#title .container-fluid { 
+    padding: 3% 15% 0%;
+}/* space is must, bcz this is parent and children syntex */
+
+/* navbar section *********************************************************************************************************/
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "poppins";
+    font-weight: bold;
+}
+
+/* title section **********************************************************************************************************/
+
+h1#head-line {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+#title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    padding-bottom: 0 ;
+}
+
+.title-img {
+    position: relative;
+}
+
+.btn-download-title {
+    margin: 5% 2% 5% 0;
+}
+
+.btn-customize-title {
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+
+/* testimonial section ******************************************************************************************************/
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    color: #1f1f1f;
+    font-size: 2rem;
+
+}
+
+em {
+    color: #fff;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-control-prev-icon {
+    position: absolute;
+    right: 160%;
+}
+
+.carousel-control-next-icon {
+    position: absolute;
+    left: 160%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 300px;
+}
+
+/* press **********************************************************************************************************************/
+
+#press {
+    background-color: #ef8172;
+  
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section *************************************************************************************************************/
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+}
+
+#pricing {
+    padding: 100px;
+    
+}
+
+.pricing-h2-text {
+    line-height: 1.5;
+    color: #1f1f1f;
+    font-size: 2rem;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.price-button {
+    margin: 5% 15%;
+}
+
+.btn-customize-pricing {
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+/* call to action section *************************************************************************************************************/
+#cta {    
+    padding: 100px 15% 40px;
+    background-color:  white;
+    color: black;
+}
+
+#cta-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+   
+
+}
+
+.btn-download-cta {
+    margin: 5% 2% 5% 0;
+}
+
+.btn-customize-cta {
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+/* footer section ********************************************************************************************************************/
+
+#footer {
+    background-color: #fff;
+    padding: 100px 15% 20%;
+   
+}
+
+.social {
+    padding-bottom: 5%;
+}
+
+.span-space {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+a {
+    font-size: 2rem;
+    color: #1f1f1f;
+
+}
+
+a.ilham {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.ilham:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+/* mobile-frindly ***************************************************************************************************/
+
+@media (max-width:1028px) {
+    .apple-title {
+        justify-content: center;
+    }
+
+    #head-line {
+        text-align: center;
+    }
+
+    #title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
